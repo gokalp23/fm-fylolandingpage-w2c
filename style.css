@@ -377,3 +377,180 @@ a {
 .btn-scoial-media:not(:last-child) {
     margin-right: .7rem;
 }
+
+/*Media Queries for mobile version*/
+
+@media only screen and (max-width: 37.5rem) {
+    .container {
+        max-width: 35rem;
+    }
+
+    .header .container {
+        font-size: 1.3rem;
+        align-items: center;
+    }
+
+    .navigation__list li:not(:last-child) {
+        margin-right: 2rem;
+    }
+
+    .top .container {
+        flex-direction: column;
+        height: 100vh;
+        padding: 0;
+    }
+
+    .top__left {
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+        padding: 0;
+        margin-top: -20rem;
+    }
+
+    .top__left h1 {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    .top__left .input {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .top__left .btn {
+        width: 100%;
+    }
+
+    .top__right {
+        width: 100%;
+        order: -1;
+        margin-top: -20rem;
+        height: 100%;
+    }
+
+    .middle .container {
+        flex-direction: column;
+        height: 150vh;
+        padding: 0;
+    }
+
+    .middle__left {
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+    }
+
+    .middle__left h1 {
+        font-size: 1.7rem;
+    }
+
+    .middle__left p {
+        text-align: left;
+        font-size: 1.3rem;
+    }
+
+    .middle__right {
+        width: 100%;
+        order: -1;
+        margin-top: 15rem;
+    }
+
+    .btn-green {
+        margin-bottom: 4rem;
+    }
+
+    .card {
+        width: 85%;
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+    .card p {
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+
+    .person-info {
+        text-align: left;
+    }
+
+    .cta .container {
+        height: 50vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .cta__text {
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0;
+    }
+
+    .cta__text p {
+        font-size: 1.6rem;
+        text-align: center;
+        width: 90%;
+    }
+
+    .cta__form {
+        width: 100%;
+        padding: 0;
+        align-items: center;
+        margin-top: -3rem;
+    }
+
+    .cta__form .input {
+        width: 80%;
+        margin-right: 0;
+        height: 4rem;
+    }
+
+    .cta__form .btn {
+        width: 80%;
+        height: 4rem;
+    }
+
+    .footer .container {
+        height: 100vh;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .footer__logo {
+        width: 15rem;
+        height: 6rem;
+        background-size: contain;
+        
+    }
+
+    .footer__info {
+        flex-direction: column;
+        height: 80%;
+    }
+
+    .footer__info-contact {
+        font-size: 1.7rem;
+        margin-top: 3rem;
+    }
+
+    .icon-phone {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .icon-mail {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .footer__info-social-media {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
