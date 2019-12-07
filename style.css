@@ -140,7 +140,7 @@ a {
     display: flex;
     justify-content: space-between;
     color: var(--color-darkblue);
-    height: 80vh;
+    height: 95vh;
     padding-top: 20rem;
     padding-bottom: 2rem;
 }
@@ -168,7 +168,7 @@ a {
 }
 
 .middle__right {
-    width: 50%;
+    width: 40%;
     background: url(/images/illustration-2.svg) no-repeat;
     background-size: contain;
     background-position: right;
@@ -202,7 +202,7 @@ a {
 }
 
 .card {
-    height: 45%;
+    height: 21rem;
     width: 65%;
     background-color: white;
     padding: 2rem 3rem;
@@ -364,14 +364,14 @@ a {
 }
 
 .btn-scoial-media {
-    height: 3rem;
-    widows: 3rem;
+    height: 4rem;
+    width: 4rem;
     border: white solid .1rem;
     background-color: transparent;
     border-radius: 50%;
     padding: 0 1rem;
     color: white;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .btn-scoial-media:not(:last-child) {
@@ -464,6 +464,7 @@ a {
 
     .card {
         width: 85%;
+        height: 45%;
         padding-bottom: 0;
         justify-content: center;
     }
